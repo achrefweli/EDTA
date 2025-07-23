@@ -13,26 +13,22 @@ git clone https://github.com/achrefweli/EDTA.git
 cd EDTA
 ```
 
-### 2. Create and Activate a Virtual Environment
+### 2. Install dependencies
 
+Note: It is recommended to use the [uv](https://docs.astral.sh/uv/) Python environment manager. 
 ```bash
-uv venv
-source .venv/bin/activate  
+uv sync
 ```
 
-### 3. Install Dependencies
-
-```bash
-uv pip install -r requirements.txt
-```
-
-### 4. Launch the Notebook (Optional)
+### 3. Launch the Notebook (Optional)
 
 ```bash
 code main.ipynb  # Or open with VS Code and run cells
 ```
 
 ---
+
+
 
 ## 📁 Structure
 
